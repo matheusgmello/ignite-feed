@@ -26,7 +26,7 @@ const posts = [
     author: {
       avatarUrl: 'https://github.com/seev7n.png',
       name: 'Matheus Bueno',
-      role: 'Full-stack Developer'
+      role: 'Desenvolvedor full-stack'
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
@@ -48,6 +48,7 @@ export function App() {
           {posts.map(post => {
             return (
               <Post
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
