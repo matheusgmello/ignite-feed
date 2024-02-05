@@ -10,9 +10,9 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/matsz22.png',
-      name: 'Matheus Santos',
-      role: 'Suporte Tecnico'
+      avatarUrl: 'https://github.com/diego3g.png',
+      name: 'Diego Fernandes',
+      role: 'CTO @Rocketseat'
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
@@ -24,9 +24,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/seev7n.png',
-      name: 'Matheus Bueno',
-      role: 'Desenvolvedor full-stack'
+      avatarUrl: 'https://github.com/maykbrito.png',
+      name: 'Mayk Brito',
+      role: 'Educator @Rocketseat'
     },
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
